@@ -132,7 +132,7 @@ export default {
             sp:
               this.startLetter === "" && this.endLetter === ""
                 ? ""
-                : this.startLetter * this.endLetter
+                : `${this.startLetter}*${this.endLetter}`
           }
         })
         .then(response => {
